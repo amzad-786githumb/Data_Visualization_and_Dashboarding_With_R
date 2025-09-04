@@ -1,6 +1,6 @@
 ---
 title: "Final Report Exercise"
-author: "Matthew Pinkerton"
+author: "Mohd Amzad"
 output:
   html_document: default
   pdf_document: default
@@ -130,4 +130,5 @@ Note: you can ignore the "stat_bin()" message that R generates when you draw thi
 
 ```{r problem12,message=FALSE}
 qplot(x=pid7,data=dat,geom="histogram",main="Histogram of pid7",xlab="Seven Point Party ID",ylab="Count")
+
 ```
