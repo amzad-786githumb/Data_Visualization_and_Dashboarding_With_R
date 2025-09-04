@@ -1,6 +1,6 @@
 ---
 title: "Project Proposal"
-author: "Matthew Pinkerton"
+author: "Mohd Amzad"
 output: html_document
 ---
 
@@ -31,3 +31,4 @@ Idea 1: A scatter plot of total athletes per country against total medals per co
 Idea 2: A bar chart of medals in each sporting event, stacked by gender. Which sporting events offer the most medals? Are some sporting events only offered to certain genders?
 
 Idea 3: A scatter plot of weight against height, with size of observations set by number of medals won. Do taller and heavier athletes win more medals?
+
