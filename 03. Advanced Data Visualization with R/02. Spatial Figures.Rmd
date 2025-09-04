@@ -2,7 +2,7 @@
 title: "Spatial Figures Peer Review"
 output: html_document
 ---
-# Matthew Pinkerton
+# Mohd Amzad
 
 ## Problem 1
 
@@ -103,3 +103,4 @@ s_america<-ne_countries(scale="medium",continent='south america',returnclass="sf
 ggplot()+ geom_sf(data=s_america,aes(fill=pop_est))+scale_fill_distiller(palette=10)
 
 ```
+
