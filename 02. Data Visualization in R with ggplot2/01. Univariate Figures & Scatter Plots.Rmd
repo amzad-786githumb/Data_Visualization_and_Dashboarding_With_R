@@ -15,7 +15,7 @@ cel <- drop_na(read_csv(url("https://www.dropbox.com/s/4ebgnkdhhxo5rac/cel_volde
 
 Your objective is to replicate these figures, created using the Center of Legislative Effectiveness Data. These figures are similar to those we completed in the lecture videos.
 
-### Matthew Pinkerton
+### Mohd Amzad
 
 **IMPORTANT: Filter your data so you are only displaying information for the 115th Congress.**
 
@@ -79,3 +79,4 @@ Hints:
 ggplot(fig115,aes(y=les, x=majority))+geom_boxplot()+labs(title="LES in the 115th Congress",x="Majority or Minority",y="Legislative Effectiveness")
 
 ```
+
