@@ -3,7 +3,7 @@ title: "More ggplot Figures Peer Review"
 output: html_document
 ---
 
-# Matthew Pinkerton
+# Mohd Amzad
 
 ## Problem 1
 
@@ -198,3 +198,4 @@ my_color<-brewer.pal(5,"Spectral")
 pie(pie_dat , border="black", col=my_color)
 
 ```
+
