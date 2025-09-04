@@ -19,7 +19,7 @@ cel <- drop_na(read_csv(url("https://www.dropbox.com/s/4ebgnkdhhxo5rac/cel_volde
 
 Following the directions on the Coursera assignment page, you will make four original visualizations. Note that the data for the CCES and CEL data are imported in code in the R Markdown file.
 
-### Matthew Pinkerton
+### Mohd Amzad
 
 ## Exercise 1
 
@@ -74,3 +74,4 @@ my_data <- tibble(month,average_temperature)
 ggplot(my_data,(aes(x=month,y=average_temperature)))+geom_line()+ guides(fill=FALSE)+labs(title="Plot of average temperature",y="Average temperature (degrees celcius)")+scale_x_continuous(breaks = seq(0, 12, 1))+annotate(geom = "text", x = 2, y = 4, label = "Lowest:", vjust = -2.5)+annotate(geom = "text", x = 2, y = 4, label = "February", vjust = -1.3)+annotate(geom = "text", x = 8, y = 23, label = "Highest:", vjust = 3)+annotate(geom = "text", x = 8, y = 23, label = "August", vjust = 4.2)+theme_solarized()
 
 ```
+
