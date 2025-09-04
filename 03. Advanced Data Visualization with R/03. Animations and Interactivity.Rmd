@@ -3,7 +3,7 @@ title: "Animations and Interactivity"
 output: html_document
 ---
 
-# Matthew Pinkerton
+# Mohd Amzad
 
 ## Problem 1
 
@@ -79,5 +79,6 @@ dat3$Quantity<-runif(100,0,10)
 library(plotly)
 
 ggplotly(ggplot(dat3,aes(x=Category,y=Quantity,frame=Time))+geom_point()+geom_segment(aes(x=Category,xend=Category,y=0,yend=Quantity)))
+
 
 ```
