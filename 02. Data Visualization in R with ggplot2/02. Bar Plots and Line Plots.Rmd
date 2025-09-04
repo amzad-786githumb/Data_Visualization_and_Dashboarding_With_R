@@ -16,7 +16,7 @@ Your objective is to replicate these figures, created using the Cooperative Cong
 
 ### Put your name here:
 
-Matthew Pinkerton
+Mohd Amzad
 
 ## Exercise 1
 
@@ -84,3 +84,4 @@ my_data$grade <- runif(18,80,100)
 ggplot(my_data,(aes(x=semester,y=grade,group=student,color=student)))+geom_line()+facet_wrap(~student)+ guides(fill=FALSE)+labs(title="Student Grades by Semester")
 
 ```
+
